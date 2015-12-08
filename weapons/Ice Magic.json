@@ -1,0 +1,38 @@
+{
+	"weapon": {
+	    "mana cost": 20,
+	    "hud image": "imgs/Weapon/Weapon17.png",
+	    "animation": {
+	        "type": "GENERIC_ICE_ANIMATION",
+	        "grid": [5, 3],
+	        "end": [3, 2],
+	        "original angle": 0,
+	        "time": 0.5
+	    },
+		"hit data": {
+            "knockback": 0,
+		    "base damage": 0,
+			"frames": null, 
+			"freeze": false,
+			"isMelee": false,
+			"num circles": 0, 
+			"num frames": 0, 
+			"rotate": true, 
+			"type": "prerendered"
+		}, 
+		"ranged data": {
+			"isRanged": true,
+			"projectile args": {
+                "knockBackForce": 200,
+			    "damage": 35,
+				"maxRange": 75, 
+				"originalAngle": 0, 
+				"originalOffsetLength": 0, 
+				"radius": 5, 
+				"speed": 400,
+				"imageType": "ICE_IMAGE"
+			}, 
+			"reload time": 0.1
+		}
+	}
+}

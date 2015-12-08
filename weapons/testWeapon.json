@@ -1,0 +1,38 @@
+{
+	"weapon":
+	{
+		"animation": "Cards/Images/walking e0000.bmp",
+		"attributes":
+		{
+			"ranged attack": 2,
+			"defense attack": 3,
+			"squadrons": 1,
+			"morale": 5,
+			"charge attack": 3,
+			"supplies": 5
+		},
+
+		"hit data":
+		{
+			"type": "prerendered",
+			"num circles": 3,
+			"num frames": 12,
+			"rotate": true,
+			"frames":
+			[
+				[{"pos": [10, 0], "radius": 10}, {"pos": [20, 0], "radius": 10}, {"pos": [30, 0], "radius": 10}],
+				[{"pos": [10, 10], "radius": 10}, {"pos": [20, 10], "radius": 10}, {"pos": [30, 10], "radius": 10}],
+				[{"pos": [10, 20], "radius": 10}, {"pos": [20, 20], "radius": 10}, {"pos": [30, 20], "radius": 10}],
+				[{"pos": [10, 30], "radius": 10}, {"pos": [20, 30], "radius": 10}, {"pos": [30, 30], "radius": 10}],
+				[{"pos": [10, 0], "radius": 10}, {"pos": [20, 0], "radius": 10}, {"pos": [30, 0], "radius": 10}],
+				[{"pos": [10, 10], "radius": 10}, {"pos": [20, 10], "radius": 10}, {"pos": [30, 10], "radius": 10}],
+				[{"pos": [10, 20], "radius": 10}, {"pos": [20, 20], "radius": 10}, {"pos": [30, 20], "radius": 10}],
+				[{"pos": [10, 30], "radius": 10}, {"pos": [20, 30], "radius": 10}, {"pos": [30, 30], "radius": 10}],
+				[{"pos": [10, 0], "radius": 10}, {"pos": [20, 0], "radius": 10}, {"pos": [30, 0], "radius": 10}],
+				[{"pos": [10, 10], "radius": 10}, {"pos": [20, 10], "radius": 10}, {"pos": [30, 10], "radius": 10}],
+				[{"pos": [10, 20], "radius": 10}, {"pos": [20, 20], "radius": 10}, {"pos": [30, 20], "radius": 10}],
+				[{"pos": [10, 30], "radius": 10}, {"pos": [20, 30], "radius": 10}, {"pos": [30, 30], "radius": 10}]
+			]
+		}
+	}
+}

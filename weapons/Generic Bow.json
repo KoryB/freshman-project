@@ -1,0 +1,38 @@
+{
+	"weapon": {
+	    "mana cost": 0,
+	    "hud image": "imgs/Weapon/Weapon14.png",
+	    "animation": {
+	        "type": "GENERIC_BOW_ANIMATION",
+	        "grid": [5, 3],
+	        "end": [3, 4],
+	        "original angle": 216.05,
+	        "time": 0.2
+	    },
+		"hit data": {
+            "knockback": 0,
+		    "base damage": 0,
+			"frames": null,
+			"freeze": false,
+			"isMelee": false, 
+			"num circles": 0, 
+			"num frames": 0, 
+			"rotate": true,
+			"type": "prerendered"
+		}, 
+		"ranged data": {
+			"isRanged": true, 
+			"projectile args": {
+                "knockBackForce": 200,
+			    "damage": 35,
+				"maxRange": 125, 
+				"originalAngle": 0, 
+				"originalOffsetLength": 0, 
+				"radius": 5, 
+				"speed": 300,
+				"imageType": "ARROW_IMAGE"
+			}, 
+			"reload time": 1.0
+		}
+	}
+}
