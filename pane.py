@@ -43,7 +43,7 @@ class pane(object):
 
 
         #hud
-        self.hud = HUD(self.player, self.me, pygame.image.load("imgs\\pic.png").convert_alpha())
+        self.hud = HUD(self.player, self.me, pygame.image.load("imgs/pic.png").convert_alpha())
         self.inventory = Inventory()
         self.camera = Camera1802.Camera(self.spawn[0], self.spawn[1] ,self.surfWidth,self.surfHeight, self.mMapsize, self.map)
 

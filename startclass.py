@@ -1,19 +1,19 @@
 import pygame
 
 pygame.mixer.init()
-pygame.mixer.music.load("Sound\\title.ogg")
+pygame.mixer.music.load("./Sound/title.ogg")
 
 class start(object):
     def thing(screen):
-        pygame.mixer.music.load("Sound\\title.ogg")
+        pygame.mixer.music.load("./Sound/title.ogg")
         screenW = screen.get_width()
         screenH = screen.get_height()
-        pback = pygame.image.load("imgs\\jail.jpg").convert()
-        booms = pygame.image.load("imgs\\boom.png").convert()
+        pback = pygame.image.load("./imgs/jail.jpg").convert()
+        booms = pygame.image.load("./imgs/boom.png").convert()
         pback = pygame.transform.scale(pback,(int(screenW/2),int(screenH/2)))
         boom = pygame.transform.scale(booms,((int(screenW/2),int(screenH/2))))
-        start = pygame.image.load("imgs\\start.png").convert()
-        background = pygame.image.load("imgs\\castle.jpg")
+        start = pygame.image.load("imgs/start.png").convert()
+        background = pygame.image.load("imgs/castle.jpg")
         background = pygame.transform.scale(background,(screenW,screenH))
         start = pygame.transform.scale(start,(350,100))
         start.set_colorkey((0,0,0))

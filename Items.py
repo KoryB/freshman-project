@@ -30,7 +30,7 @@ class Item(object):
 class healthPotion(Item):
     def __init__(self, player):
         self.instantUse = False
-        img = pygame.image.load("imgs\\Items\\Potion06.png")
+        img = pygame.image.load("imgs/Items/Potion06.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -45,7 +45,7 @@ class healthPotion(Item):
 class manaPotion(Item):
     def __init__(self, player):
         self.instantUse = False
-        img = pygame.image.load("imgs\\Items\\Potion04.png")
+        img = pygame.image.load("imgs/Items/Potion04.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -60,7 +60,7 @@ class manaPotion(Item):
 class speedBoost(Item):
     def __init__(self, player):
         self.instantUse = True
-        img = pygame.image.load("imgs\\Items\\Etc04.png")
+        img = pygame.image.load("imgs/Items/Etc04.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -73,7 +73,7 @@ class speedBoost(Item):
 class strengthBoost(Item):
     def __init__(self, player):
         self.instantUse = True
-        img = pygame.image.load("imgs\\Items\\Etc02.png")
+        img = pygame.image.load("imgs/Items/Etc02.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -86,7 +86,7 @@ class strengthBoost(Item):
 class defenseBoost(Item):
     def __init__(self, player):
         self.instantUse = True
-        img = pygame.image.load("imgs\\Items\\Etc03.png")
+        img = pygame.image.load("imgs/Items/Etc03.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -99,7 +99,7 @@ class defenseBoost(Item):
 class speedBoots(Item):
     def __init__(self, player):
         self.instantUse = False
-        img = pygame.image.load("imgs\\Armor\\Foot02.png")
+        img = pygame.image.load("imgs/Armor/Foot02.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -113,7 +113,7 @@ class speedBoots(Item):
 class shield(Item):
     def __init__(self, player):
         self.instantUse = False
-        img = pygame.image.load("imgs\\Armor\\Shield02.png")
+        img = pygame.image.load("imgs/Armor/Shield02.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -127,7 +127,7 @@ class shield(Item):
 class cocaine(Item):
     def __init__(self, player):
         self.instantUse = False
-        img = pygame.image.load("imgs\\Items\\Etc19.png")
+        img = pygame.image.load("imgs/Items/Etc19.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -142,7 +142,7 @@ class sword(Item):
     def __init__(self, player):
         self.instantUse = False
         self.mIsWeapon = True
-        img = pygame.image.load("imgs\\Weapon\\Weapon03.png")
+        img = pygame.image.load("imgs/Weapon/Weapon03.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -159,7 +159,7 @@ class sword(Item):
 class mace(Item):
     def __init__(self, player):
         self.instantUse = False
-        img = pygame.image.load("imgs\\Weapon\\Weapon08.png")
+        img = pygame.image.load("imgs/Weapon/Weapon08.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -176,7 +176,7 @@ class mace(Item):
 class bow(Item):
     def __init__(self, player):
         self.instantUse = False
-        img = pygame.image.load("imgs\\Weapon\\Weapon14.png")
+        img = pygame.image.load("imgs/Weapon/Weapon14.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -193,7 +193,7 @@ class bow(Item):
 class fire(Item):
     def __init__(self, player):
         self.instantUse = False
-        img = pygame.image.load("imgs\\Weapon\\Weapon16.png")
+        img = pygame.image.load("imgs/Weapon/Weapon16.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -210,7 +210,7 @@ class fire(Item):
 class wind(Item):
     def __init__(self, player):
         self.instantUse = False
-        img = pygame.image.load("imgs\\Weapon\\Weapon18.png")
+        img = pygame.image.load("imgs/Weapon/Weapon18.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))
@@ -227,7 +227,7 @@ class wind(Item):
 class ice(Item):
     def __init__(self, player):
         self.instantUse = False
-        img = pygame.image.load("imgs\\Weapon\\Weapon17.png")
+        img = pygame.image.load("imgs/Weapon/Weapon17.png")
         pos = VectorN(2)
         scaledImg = pygame.transform.scale(img, (45, 45))
         scaledMapImg = pygame.transform.scale(img, (32, 32))

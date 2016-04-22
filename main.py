@@ -45,30 +45,30 @@ playerthing = startclass.start.thing(screen)
 all_panes = []
 
 if playerthing[0] == True:
-    pane1 = pane.pane(screen, "imgs\\playersprite0.png", "imgs\\enemysprite.png",
-                      "imgs\\tileset.png",1, (0,0))
+    pane1 = pane.pane(screen, "imgs/playersprite0.png", "imgs/enemysprite.png",
+                      "imgs/tileset.png",1, (0,0))
     all_panes.append(pane1)
 if playerthing[1] == True:
-    pane2 = pane.pane(screen, "imgs\\playersprite1.png", "imgs\\enemysprite.png",
-                      "imgs\\tileset.png",2, (screen.get_width()/2,0))
+    pane2 = pane.pane(screen, "imgs/playersprite1.png", "imgs/enemysprite.png",
+                      "imgs/tileset.png",2, (screen.get_width()/2,0))
     all_panes.append(pane2)
 if playerthing[2] == True:
-    pane3 = pane.pane(screen, "imgs\\playersprite2.png", "imgs\\enemysprite.png",
-                        "imgs\\tileset.png",3, (0,screen.get_height()/2))
+    pane3 = pane.pane(screen, "imgs/playersprite2.png", "imgs/enemysprite.png",
+                        "imgs/tileset.png",3, (0,screen.get_height()/2))
     all_panes.append(pane3)
 if playerthing[3] == True:
   
-    pane4 = pane.pane(screen, "imgs\\playersprite3.png", "imgs\\enemysprite.png",
-                      "imgs\\tileset.png",4, (screen.get_width() / 2, screen.get_height() / 2))
+    pane4 = pane.pane(screen, "imgs/playersprite3.png", "imgs/enemysprite.png",
+                      "imgs/tileset.png",4, (screen.get_width() / 2, screen.get_height() / 2))
     all_panes.append(pane4)
 
 playerList = []
 
 clock.tick()
 
-tileset = pygame.image.load("imgs\\tileset.png").convert()
+tileset = pygame.image.load("imgs/tileset.png").convert()
 MapRead = MapReader(tileset, (152,142,133))
-finalmap = MapRead.makeMap("maps\\emptymap.txt")
+finalmap = MapRead.makeMap("maps/emptymap.txt")
 
 # Game Loop
 while not gameOver:
@@ -79,7 +79,7 @@ while not gameOver:
         dt = 0
 
     if musicStart == False:
-        pygame.mixer.music.load("Sound\\main.ogg")
+        pygame.mixer.music.load("Sound/main.ogg")
         pygame.mixer.music.play(-1)
         musicStart = True
 
@@ -121,7 +121,7 @@ while not gameOver:
 
         if modeChanged:
             if finalMusicStart == False:
-                pygame.mixer.music.load("Sound\\battle.ogg")
+                pygame.mixer.music.load("Sound/battle.ogg")
                 pygame.mixer.music.play(-1)
                 finalMusicStart = True
             for i in range(len(playerList)):
@@ -197,26 +197,26 @@ while not gameOver:
                                 all_panes = []
 
                                 if playerthing[0] == True:
-                                    pane1 = pane.pane(screen, "imgs\\playersprite0.png", "imgs\\enemysprite.png",
-                                                      "imgs\\tileset.png",1, (0,0))
+                                    pane1 = pane.pane(screen, "imgs/playersprite0.png", "imgs/enemysprite.png",
+                                                      "imgs/tileset.png",1, (0,0))
                                     all_panes.append(pane1)
                                 if playerthing[1] == True:
-                                    pane2 = pane.pane(screen, "imgs\\playersprite1.png", "imgs\\enemysprite.png",
-                                                      "imgs\\tileset.png",2, (screen.get_width()/2,0))
+                                    pane2 = pane.pane(screen, "imgs/playersprite1.png", "imgs/enemysprite.png",
+                                                      "imgs/tileset.png",2, (screen.get_width()/2,0))
                                     all_panes.append(pane2)
                                 if playerthing[2] == True:
-                                    pane3 = pane.pane(screen, "imgs\\playersprite2.png", "imgs\\enemysprite.png",
-                                                        "imgs\\tileset.png",3, (0,screen.get_height()/2))
+                                    pane3 = pane.pane(screen, "imgs/playersprite2.png", "imgs/enemysprite.png",
+                                                        "imgs/tileset.png",3, (0,screen.get_height()/2))
                                     all_panes.append(pane3)
                                 if playerthing[3] == True:
-                                    pane4 = pane.pane(screen, "imgs\\playersprite3.png", "imgs\\enemysprite.png",
-                                                      "imgs\\tileset.png",4, (screen.get_width() / 2, screen.get_height() / 2))
+                                    pane4 = pane.pane(screen, "imgs/playersprite3.png", "imgs/enemysprite.png",
+                                                      "imgs/tileset.png",4, (screen.get_width() / 2, screen.get_height() / 2))
                                     all_panes.append(pane4)
 
                                 playerList = []
                                 clock.tick()
 
-                                tileset = pygame.image.load("imgs\\tileset.png").convert()
+                                tileset = pygame.image.load("imgs/tileset.png").convert()
                                 MapRead = MapReader(tileset, (152,142,133))
 
     if not modeChanged:
